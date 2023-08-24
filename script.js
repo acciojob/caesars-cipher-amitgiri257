@@ -39,7 +39,7 @@ const lookup = {
 		else decodedArr.push(lookup[str[i]])
 	}
  
-  return; //return decodedArr
+  return decodedArr;
 }
   // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
   
